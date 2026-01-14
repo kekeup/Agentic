@@ -1,4 +1,4 @@
-# 🚀 Agentic VSC System - 自演进视频语义通信系统
+ Agentic VSC System
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
@@ -19,5 +19,6 @@ conda create -n agentic_vsc python=3.8
 #安装依赖
 pip install -r requirements.txt
 
-#启动系统
+
+2.启动系统
 python start.py
