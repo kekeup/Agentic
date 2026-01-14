@@ -1,6 +1,0 @@
-
-path: data/kitti
-train: images/train
-val: images/val
-nc: 8
-names: ['car', 'van', 'truck', 'pedestrian', 'Person_sitting', 'cyclist', 'tram', 'misc']
