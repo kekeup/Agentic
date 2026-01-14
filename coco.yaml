@@ -1,0 +1,6 @@
+
+path: data/coco
+train: images/train2014
+val: images/val2014
+nc: 80
+names: ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light']

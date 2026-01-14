@@ -1,0 +1,20 @@
+{
+  "model_name": "Model_B_KITTI_EWC",
+  "base_model": "models\\yolov8n.pt",
+  "training_method": "EWC_Continual_Learning",
+  "importance_weight": 1000.0,
+  "training_history": [
+    {
+      "epoch": 1,
+      "avg_loss": 0.5063413071632386,
+      "avg_ewc_loss": 0.0,
+      "epoch_time": 22.247085094451904,
+      "num_batches": 100,
+      "timestamp": "2026-01-14T16:04:07.168021"
+    }
+  ],
+  "fisher_computed": true,
+  "old_params_saved": true,
+  "device_used": "cpu",
+  "generated_at": "2026-01-14T16:04:07.233915"
+}

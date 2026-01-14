@@ -1,0 +1,23 @@
+{
+  "validation_timestamp": "2026-01-08T12:36:17",
+  "data_directory": "D:\\agentic_vsc_system\\data\\kitti",
+  "statistics": {
+    "训练图像_count": 5985,
+    "验证图像_count": 1496,
+    "训练标注_count": 5985,
+    "验证标注_count": 1496,
+    "train_images": 5985,
+    "train_labels": 5985,
+    "class_distribution": {
+      "7": 75,
+      "0": 1921,
+      "3": 308,
+      "5": 128,
+      "2": 66,
+      "6": 37,
+      "1": 196,
+      "4": 20
+    }
+  },
+  "status": "validated"
+}
