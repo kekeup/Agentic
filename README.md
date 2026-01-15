@@ -7,7 +7,7 @@
 
 1.环境配置
  #数据集（百度网盘）
- 链接：链接：https://pan.baidu.com/s/1c0vdr5uqBaCBWNsgY068iA?pwd=tdgw 
+ 链接：https://pan.baidu.com/s/1c0vdr5uqBaCBWNsgY068iA?pwd=tdgw 
  提取码：tdgw 
  #注意：将数据集解压至data/目录
 
