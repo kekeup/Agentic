@@ -6,5 +6,5 @@ Conventional Video Semantic Communication (VSC) systems are often static, strugg
 Multi-Agent Coordination: Collaborative workflow between Embodied, Edge, and Cloud Agents.
 Closed-Loop Evolution: Supports task interpretation, online performance monitoring, and feedback-driven model evolution.
 Catastrophic Forgetting Mitigation: Leverages continual learning to adapt to new environments (e.g., COCO to KITTI) while retaining knowledge of previous tasks.
-<p align="center"> <img src="./figures/framework.png" width="850" alt="System Framework">
+<p align="center"> <img src="./img/framework.png" width="850" alt="System Framework">
 <em>Figure 1: Architecture of Agentic AI-empowered Self-Evolving VSC.</em> </p> 
