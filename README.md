@@ -1,10 +1,112 @@
-<h1>Self-Evolving Video Semantic Communication with Agentic AI</h1>
-Self-Evolving Video Semantic Communication with Agentic AI
+# self_evolving_vsc
 
-Conventional Video Semantic Communication (VSC) systems are often static, struggling to adapt to long-term non-stationary environments, such as evolving video content distributions, time-varying channels, and changing semantic objectives.This repository presents an Agentic AI-empowered self-evolving VSC architecture that integrates Continual Learning (CL) into a closed-loop cloud-edge-device workflow.
-<h4>Key Highlights:</h4>
-Multi-Agent Coordination: Collaborative workflow between Embodied, Edge, and Cloud Agents.
-Closed-Loop Evolution: Supports task interpretation, online performance monitoring, and feedback-driven model evolution.
-Catastrophic Forgetting Mitigation: Leverages continual learning to adapt to new environments (e.g., COCO to KITTI) while retaining knowledge of previous tasks.
-<p align="center"> <img src="./img/framework.png" width="850" alt="System Framework">
-<em>Figure 1: Architecture of Agentic AI-empowered Self-Evolving VSC.</em> </p> 
+This repository provides the reference implementation and experimental materials for the paper:
+
+**Self-Evolving Video Semantic Communication With Agentic AI: Architecture, Applications and Challenges**
+
+
+## Introduction
+
+Video Semantic Communication (VSC) enables task-oriented video transmission by conveying semantic representations instead of raw bit streams. However, existing VSC systems are mostly static and struggle with long-term non-stationary environments, such as evolving video content distributions, time-varying wireless channels, and changing semantic objectives.
+
+This work proposes an **agentic AI–empowered self-evolving VSC architecture**, which integrates **continual learning** into a **cloud–edge–device closed-loop framework**. By coordinating embodied, edge, and cloud agents, the system supports adaptive model deployment, online performance monitoring, and feedback-driven semantic model evolution.
+
+
+## Framework Overview
+
+The proposed architecture consists of three types of agents:
+
+- **Embodied Agents**: deployed on devices (e.g., UAVs, vehicles) for perception and data acquisition control  
+- **Edge Agents**: deployed on edge servers to execute VSC models and monitor task and channel performance  
+- **Cloud Agents**: responsible for task interpretation, model selection, deployment, and continual learning decisions  
+
+Together, these agents enable long-term self-evolution of VSC systems.
+
+<p align="center">
+  <img src="img/architecture.png" width="80%">
+</p>
+<p align="center">
+  <em>Fig. 3. Agentic AI–driven self-evolving VSC architecture.</em>
+</p>
+
+
+## Key Features
+
+- Agentic AI–driven cloud–edge–device collaboration  
+- Continual learning–based semantic model evolution  
+- Robust adaptation to data distribution shifts  
+- Robust adaptation to dynamic channel conditions  
+- Mitigation of catastrophic forgetting  
+
+
+## Dataset
+
+The following datasets are used in our experiments:
+
+- **COCO**: used for pre-training semantic communication models  
+- **KITTI**: used to simulate data distribution shifts and autonomous driving scenarios  
+
+Please replace dataset paths with your local directories before running the code.
+
+
+## Requirement
+
+Some key requirements are listed below. More details can be found in `requirements.txt`.
+
+- Python ≥ 3.9  
+- PyTorch ≥ 1.12  
+- NumPy ≥ 1.12.1  
+- SciPy == 1.2.1  
+- GPU memory ≥ 8 GB  
+
+
+## Evaluation
+
+### Data Distribution Shift
+
+When pre-trained models are applied to new data distributions, edge agents continuously monitor task performance (e.g., mAP, mIoU). Once performance degradation exceeds predefined thresholds, the cloud agent autonomously triggers continual learning (e.g., EWC-based methods) to evolve the VSC models.
+
+<p align="center">
+  <img src="img/data_shift.png" width="80%">
+</p>
+<p align="center">
+  <em>Fig. 4. Self-evolving VSC under data distribution shifts.</em>
+</p>
+
+
+### Dynamic Channel Conditions
+
+To handle time-varying wireless channels, multiple Deep JSCC models trained at different SNRs are deployed. When significant SNR changes are detected, the cloud agent initiates architecture evolution–based continual learning, such as gating mechanisms with shared decoders.
+
+<p align="center">
+  <img src="img/channel_shift.png" width="80%">
+</p>
+<p align="center">
+  <em>Fig. 5. Self-evolving VSC under dynamic channel conditions.</em>
+</p>
+
+
+## Reinforcement Learning
+
+Reinforcement learning strategies are adopted to jointly optimize task performance, communication efficiency, and system cost, including:
+
+- Actor-Critic  
+- PPO  
+- DQN  
+- Q-Learning  
+- Multi-Q Learning  
+
+Please refer to the `RL/` directory for more details.
+
+
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{hao2026selfevolving,
+  title={Self-Evolving Video Semantic Communication With Agentic AI: Architecture, Applications and Challenges},
+  author={Hao, Min and Xu, Wenfeng and He, Yuzhuo and Wu, Maoqiang and Zhang, Ruichen and Wang, Jiacheng and Kang, Jiawen and Zhang, Han and Niyato, Dusit},
+  journal={IEEE Communications Surveys \& Tutorials},
+  year={2026}
+}
