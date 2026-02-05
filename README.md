@@ -82,14 +82,4 @@ To handle time-varying wireless channels, multiple Deep JSCC models trained at d
 </p>
 
 
-## Citation
-
-If you find this work useful, please consider citing:
-
-```bibtex
-@article{hao2026selfevolving,
-  title={Self-Evolving Video Semantic Communication With Agentic AI: Architecture, Applications and Challenges},
-  author={Hao, Min and Xu, Wenfeng and He, Yuzhuo and Wu, Maoqiang and Zhang, Ruichen and Wang, Jiacheng and Kang, Jiawen and Zhang, Han and Niyato, Dusit},
-  journal={IEEE Communications Surveys \& Tutorials},
-  year={2026}
-}
+## welcome to cite our work
