@@ -25,9 +25,7 @@ Together, these agents enable long-term self-evolution of VSC systems.
 <p align="center">
   <img src="img/architecture.png" width="80%">
 </p>
-<p align="center">
-  <em>Fig. 3. Agentic AI–driven self-evolving VSC architecture.</em>
-</p>
+
 
 
 ## Key Features
@@ -69,9 +67,7 @@ When pre-trained models are applied to new data distributions, edge agents conti
 <p align="center">
   <img src="img/data_shift.png" width="80%">
 </p>
-<p align="center">
-  <em>Fig. 4. Self-evolving VSC under data distribution shifts.</em>
-</p>
+
 
 
 ### Dynamic Channel Conditions
@@ -81,9 +77,7 @@ To handle time-varying wireless channels, multiple Deep JSCC models trained at d
 <p align="center">
   <img src="img/channel_shift.png" width="80%">
 </p>
-<p align="center">
-  <em>Fig. 5. Self-evolving VSC under dynamic channel conditions.</em>
-</p>
+
 
 
 ## Reinforcement Learning
