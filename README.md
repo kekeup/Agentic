@@ -41,8 +41,8 @@ Together, these agents enable long-term self-evolution of VSC systems.
 
 The following datasets are used in our experiments:
 
-- **COCO**: used for pre-training semantic communication models  
-- **KITTI**: used to simulate data distribution shifts and autonomous driving scenarios  
+**COCO**: used for pre-training semantic communication models  
+**KITTI**: used to simulate data distribution shifts and autonomous driving scenarios  
 
 Please replace dataset paths with your local directories before running the code.
 
