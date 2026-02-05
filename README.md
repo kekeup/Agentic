@@ -52,9 +52,12 @@ Please replace dataset paths with your local directories before running the code
 Some key requirements are listed below. More details can be found in `requirements.txt`.
 
 - Python ≥ 3.9  
-- PyTorch ≥ 1.12  
+- Torch ≥ 2.0.0  
 - NumPy ≥ 1.12.1  
-- SciPy == 1.2.1  
+- SciPy == 1.10.0
+- Opencv-Python ≥ 4.5.0
+- Ultralytics ≥ 8.0.0
+- Zhipuai ≥ 2.0.0
 - GPU memory ≥ 8 GB  
 
 
