@@ -9,4 +9,4 @@ The proposed self-evolving VSC architecture consists of three intelligent agents
 Cloud Agent - Task interpretation, model selection, and evolution decisions
 Edge Agent - Performance monitoring and evaluation
 Embodied Agent - Real-time data acquisition and processing
-<font size="5">稍大文本</font>
+<font size="10">稍大文本</font>
