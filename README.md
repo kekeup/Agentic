@@ -79,20 +79,6 @@ To handle time-varying wireless channels, multiple Deep JSCC models trained at d
 </p>
 
 
-
-## Reinforcement Learning
-
-Reinforcement learning strategies are adopted to jointly optimize task performance, communication efficiency, and system cost, including:
-
-- Actor-Critic  
-- PPO  
-- DQN  
-- Q-Learning  
-- Multi-Q Learning  
-
-Please refer to the `RL/` directory for more details.
-
-
 ## Citation
 
 If you find this work useful, please consider citing:
